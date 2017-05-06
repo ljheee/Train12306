@@ -17,6 +17,8 @@ import java.awt.event.MouseEvent;
 public class LoginFrame extends BaseFrame {
 	private static final long serialVersionUID = -6541864654653129335L;
 	static LoginFrame frame;
+	
+	
 	public static void main(String[] args) {
 		Loading loading = Loading.getLoading();
 		loading.open();
